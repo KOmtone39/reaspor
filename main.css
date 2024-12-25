@@ -1,0 +1,182 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+@media (max-width:1123px) {
+   .child1{
+    background-color: red;
+
+   }
+   .child2{
+    background-color: red;
+    
+   }
+   .child3{
+    background-color: red;
+    
+   }
+     .child4{
+    background-color: red;
+
+     }
+     .child5{
+    background-color: red;
+
+     }
+     .child6{
+    background-color: red;
+
+     }
+}
+
+
+@media (max-width:990px) {
+    .child1{
+        background-color: blue;
+    
+       }
+       .child2{
+        background-color: blue;
+        
+       }
+       .child3{
+        background-color: blue;
+        
+       }
+         .child4{
+        background-color: blue;
+    
+         }
+         .child5{
+        background-color: blue;
+    
+         }
+         .child6{
+        background-color: blue;
+    
+         }
+         body{
+            background-color: gold;
+         }
+}
+
+@media (max-width:770px) {
+    .child1{
+        background-color: green;
+    
+       }
+       .child2{
+        background-color: green;
+        
+       }
+       .child3{
+        background-color: green;
+        
+       }
+         .child4{
+        background-color: green;
+    
+         }
+         .child5{
+        background-color: green;
+    
+         }
+         .child6{
+        background-color: green;
+    
+         }
+         body{
+            background-color: blueviolet;
+         }
+}
+@media (max-width:660px) {
+    .child1{
+        background-color: orange;
+    
+       }
+       .child2{
+        background-color: orange;
+        
+       }
+       .child3{
+        background-color: orange;
+        
+       }
+         .child4{
+        background-color: orange;
+    
+         }
+         .child5{
+        background-color: orange;
+    
+         }
+         .child6{
+        background-color: orange;
+    
+         }
+         body{
+            background-color: blanchedalmond;
+         }
+}
+
+.child1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+}
+
+.child3{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+
+}
+.child4{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+}
+.child5{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+}
+
+.child6{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
